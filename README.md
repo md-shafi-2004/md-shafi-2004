@@ -21,9 +21,10 @@ Here’s a list of my technical skills, categorized by proficiency levels:
 - **Tools & Platforms**:
   - Visual Studio Code, Microsoft PowerPoint, Canva, Capcut, Notion.
 - **Soft Skills**:
-  - Leadership (In store at Domino’s)
+  - Leadership (Shift Manager at Domino’s)
   - Teamwork in Domino’s
   - Problem-solving, Collaboration
+  - Dance and stage performance
 
 ---
 

@@ -25,12 +25,16 @@
   border: none;
   border-radius: 5px;
   padding: 18.28px 35px 19.3px 36px;
+  cursor: pointer;
 }
 
   /* main style */
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
 }
 
 nav{
@@ -52,4 +56,41 @@ nav .menu a{
   font-size: 20px;
   color: #474747;
   text-decoration: none;
+}
+
+.banar{
+  margin: 46px 38px 0px 238px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banar .banar-content{
+  max-width: 585px;
+}
+
+
+.banar .banar-content h2{
+  font-size: 45px;
+  color: #474747f0;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.banar .banar-content h1{
+  font-size: 85px;
+  font-weight: 700;
+  color: #050505fc;
+  margin-bottom: 20px;
+}
+
+.banar .banar-content p{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  
+}
+.banar .banar-img img{
+  max-width: 584px;
+  vertical-align: middle;
 }

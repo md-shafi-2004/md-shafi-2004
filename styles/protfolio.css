@@ -34,7 +34,7 @@
   margin: 0 auto;
 }
 
-.section-heading h3{
+.section-heading h3 , h2{
  font-size: 35px;
  font-weight: bold;
  margin-bottom: 30px;
@@ -115,9 +115,8 @@ nav .menu a{
   vertical-align: middle;
 }
 
-#about{
+#about,#skills,#resume{
   padding-top: 130px;
-
 }
 
 #about .about-container{
@@ -127,7 +126,6 @@ nav .menu a{
   margin: 0 auto;
   text-align: center;
   padding: 131px 156px;
-
 }
 
 #about .about-container .about-info{
@@ -142,10 +140,6 @@ nav .menu a{
 
 .about-info .info-card h4{
   font-size: 20px;
-}
-
-#skills{
- padding-top: 130px;
 }
 #skills .skills-container{
   width: 71%;
@@ -180,3 +174,46 @@ nav .menu a{
   line-height: 28px;
   color: #757575;
 }
+
+#resume .resume-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 130px;
+}
+.resume-container h3{
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+ .cards h4{
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.cards h5{
+  font-size: 20px;
+  font-weight: 600;
+  color:#757575;
+  margin-bottom: 20px;
+}
+.cards p{
+  font-size: 16px;
+  line-height: 28px;
+  color:#757575;
+  margin-bottom: 30px;
+  margin-right: 47px;
+}
+
+.cv{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+

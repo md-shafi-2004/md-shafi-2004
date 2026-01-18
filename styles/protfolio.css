@@ -272,7 +272,8 @@ section-heading h3, h2 {
 }
 
 #skills .skills-container .skills-card,
-#about .about-container .about-info{
+#about .about-container .about-info,
+footer .container{
   flex-direction: column;
 }
 #about .about-container .about-info{
@@ -288,5 +289,10 @@ section-heading h3, h2 {
 }
 #about .about-container {
     padding: 20px;
+}
+
+footer .container .form input[type="text"], footer .container .form textarea {
+    width: 100%;
+    padding: 5px 10px;
 }
 }

@@ -291,6 +291,13 @@ footer .container{
     padding: 20px;
 }
 
+#resume .resume-container {
+    flex-direction: column;
+    margin-top: 60px;
+}
+.cards p{
+  margin-right: 10px;
+}
 footer .container .form input[type="text"], footer .container .form textarea {
     width: 100%;
     padding: 5px 10px;

@@ -256,3 +256,37 @@ footer .container .form textarea{
   color: #757575;
 
 }
+
+.hide{
+  display: none !important;
+}
+
+@media screen and (max-width:576px) {
+
+  #skills .skills-container {
+    width: 95%;
+}
+
+section-heading h3, h2 {
+    font-size: 30px;
+}
+
+#skills .skills-container .skills-card,
+#about .about-container .about-info{
+  flex-direction: column;
+}
+#about .about-container .about-info{
+  gap: 40px;
+}
+.skills-card .card-info {
+    max-width: 100%;
+}
+  #about,
+  #skills,
+  #resume{
+  padding-top: 60px;
+}
+#about .about-container {
+    padding: 20px;
+}
+}

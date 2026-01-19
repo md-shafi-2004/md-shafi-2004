@@ -279,8 +279,7 @@ footer .container .form textarea{
 }
 
 nav .menu {
-    gap: 100px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .banar {
@@ -324,6 +323,9 @@ nav{
 #about .about-container .about-info{
   gap: 40px;
 }
+.about-info .info-card h4{
+  font-size: 12px;
+}
 .skills-card .card-info {
     max-width: 100%;
 }
@@ -333,7 +335,7 @@ nav{
   padding-top: 60px;
 }
 #about .about-container {
-    padding: 20px;
+    padding: 5px;
 }
 
 #resume .resume-container {

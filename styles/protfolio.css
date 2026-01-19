@@ -263,8 +263,18 @@ footer .container .form textarea{
 
 @media screen and (max-width:576px) {
 
-  #skills .skills-container {
+  .logo h2{
+    font-size: 60px;
+  }
+
+  #skills .skills-container,
+  nav {
     width: 95%;
+}
+
+nav .menu {
+    gap: 100px;
+    justify-content: space-between;
 }
 
 section-heading h3, h2 {
@@ -273,7 +283,8 @@ section-heading h3, h2 {
 
 #skills .skills-container .skills-card,
 #about .about-container .about-info,
-footer .container{
+footer .container,
+nav{
   flex-direction: column;
 }
 #about .about-container .about-info{

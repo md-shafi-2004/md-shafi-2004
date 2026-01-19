@@ -263,6 +263,11 @@ footer .container .form textarea{
 
 @media screen and (max-width:576px) {
 
+  header{
+    background:url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:bottom right; 
+}
   .logo h2{
     font-size: 60px;
   }
@@ -277,6 +282,34 @@ nav .menu {
     justify-content: space-between;
 }
 
+.banar {
+    margin: 46px 38px 0px 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.banar .banar-content {
+    max-width: 100%;
+}
+.banar .banar-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.banar .banar-content p {
+    margin-bottom: 20px;
+}
+.banar-btn{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.banar .banar-img img {
+    max-width: 100%;
+    vertical-align: middle;
+}
 section-heading h3, h2 {
     font-size: 30px;
 }

@@ -111,7 +111,7 @@ nav .menu a{
   
 }
 .banar .banar-img img{
-  max-width: 584px;
+  max-width: 586px;
   vertical-align: middle;
 }
 
@@ -130,7 +130,8 @@ nav .menu a{
 
 #about .about-container .about-info{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 80px;
 }
 .about-info .info-card p{
   font-size: 20px;
